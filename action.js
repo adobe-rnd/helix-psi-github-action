@@ -2,7 +2,7 @@ const core = require('@actions/core');
 const github = require('@actions/github');
 const { getPsi, getPsiAttempt } = require('./lib/psi');
 
-const COMMENT_HEADER = '# ![Helix](https://raw.githubusercontent.com/auniverseaway/helix-actions-psi/main/img/helix-logo.svg) Helix Actions';
+const COMMENT_HEADER = '# ![Helix](https://raw.githubusercontent.com/adobe-rnd/helix-psi-github-action/main/img/helix-logo.svg) Helix Actions';
 const FAIL_MESSAGE = 'No audit passed.';
 
 async function run() {

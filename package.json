@@ -1,8 +1,8 @@
 {
-  "name": "helix-actions-psi",
+  "name": "helix-psi-github-action",
   "version": "1.0.0",
-  "description": "Run PSI on merge.",
-  "main": "psi.js",
+  "description": "Run a PageSpeed Insights audit when a PR is raised against a Helix website.",
+  "main": "action.js",
   "scripts": {
     "test": "nyc --reporter=text --reporter=lcov mocha './*/test/*.test.js'"
   },
